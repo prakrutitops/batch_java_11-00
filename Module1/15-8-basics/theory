@@ -1,0 +1,59 @@
+JDK -> Java Development Kit -> Compiler
+JRE -> Java Runtime Environment -> System Library
+JVM -> Java Virtual Machine
+
+Editor -> Eclipse
+
+Step 1: 
+
+Download JDK - 64 bit
+
+Step 2:
+Install 
+
+Step 3:
+Set the Path
+C:\Program Files\Java\jdk1.8.0_191\bin
+
+This Pc->Right click -> Properties -> Advanced system settings -> environment variables->
+path -> Edit -> Paste your path -> click on OK
+
+
+Then open your CMD and type javac it will execute the code
+
+
+Step 4:
+Download Eclipse
+https://www.eclipse.org/downloads/
+
+-> Every program's execution will start with main method
+-> java is a case sensitive language 
+
+public
+private
+protected
+
+
+Access Modifier/Specifier:
+
+
+static -> fixed
+by default call
+
+
+Data type:
+
+<
+>
+<=
+>=
+
+=
+==
+
+conditional statement: if,elseif,else
+
+
+
+
+
