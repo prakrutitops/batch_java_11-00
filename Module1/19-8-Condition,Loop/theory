@@ -1,0 +1,33 @@
+Switch,case,break -> Conditional statement
+If,Else if,Else -> Conditional statement
+Operator
+
+Looping Statement:
+Entry Control Loop:
+1)For:
+
+for(initialization;condition;incre/decre)
+{
+	statement
+}
+
+
+2)While : Entry Control Loop
+
+initialize;
+
+while(condition)
+{
+	statement
+}
+
+
+3)Do While :Exit Control Loop
+
+initialize;
+
+do
+{
+statement
+}
+while(condition);
