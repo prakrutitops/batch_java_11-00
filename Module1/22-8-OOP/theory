@@ -1,0 +1,63 @@
+conditional statement
+looping statement
+keywords
+
+OOP -> Object Oriented Programming
+
+Features of OOP
+
+1)Object : Any Entity which has own state and behaviour
+ex: pen,paper,chair etc..
+
+2)Class:Collection of objects that is called class
+ex:human body
+
+3)Abstraction:Hiding internal details and showing functionalities
+ex:Login Page
+
+4)Encapsulation:Wrapping up or binding of data
+ex:capsule
+
+5)Inheritance:When One Object acquire all the properties and behaviour of parent class
+
+parent - child
+super -sub
+base -derived
+
+
+6)Polymorphism:Many ways to perform anythinh
+
+1)Overloading
+2)Overriding
+
+
+----------------------------------------------------------------
+Object Creation:
+
+Classname objname = new Classname();//object
+-------------------------------------------------------------------
+method creation
+
+void a()
+{
+
+}
+
+---------------------------------------------------------------------
+Constructor:when method having a same as a classname 
+
+->does not have a return type
+
+Types 
+1)Default COnstructor -> constructor which does not have a parameter
+2)Parameterized Constructor-> which have arguments or parameters
+3)Copy Constructor
+
+
+this keyword ->it will work as a refrence keyword when two variables having a same name in
+parameterized constructor
+
+
+
+
+
