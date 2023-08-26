@@ -1,0 +1,51 @@
+classname objname = new classname();
+
+obj.id = value;
+
+5 object 
+5 value
+
+25 print creating a method
+
+void a()
+{
+	body part
+}
+
+constructor 
+
+default
+parameterized
+
+this keyword
+
+Copy Constructor
+
+Static Keyword
+1)variable-> Use Old Memory Allocation
+2)method-> You can access static method without creating object
+3)block-> it always executed before main  method
+
+
+Encapsulation-> Database Connectivity 
+
+Class - Model - set & get[setter-getter]
+
+ 
+Core java -> Desktop Software
+advance java -> website
+framework -> website
+
+insert into tablename (name,surname,email) values ('','','') -> SQL
+
+.save();-> HQL
+
+inheritance:
+
+Types of Inheritance
+1)Single
+2)Multilevel
+3)Multiple-> is not supported in java
+4)Hierarchical
+5)Hybrid
+
