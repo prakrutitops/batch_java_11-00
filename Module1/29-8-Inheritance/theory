@@ -1,0 +1,13 @@
+Class ->Collection of objects
+->every method having a body part
+
+void a()
+{
+	//body part
+}
+
+Interface -> Collection of abstract methods
+->no method having a body part
+->abstract method does not have a body part
+void a();
+
