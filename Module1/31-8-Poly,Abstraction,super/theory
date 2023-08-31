@@ -1,0 +1,39 @@
+Keywords:
+
+this -> Refrence Keyword
+static-> fixed[If Will use static it's used previous memory allocation]
+final -> it's fixed ,it can not be changed
+super-> it's called parent class variable
+
+Inheritance:
+1)Single
+2)Multilevel
+3)Multiple-> is not supported in java
+4)Hierarchical
+5)Hybrid
+
+what is the solution?
+->Interface : Collection of abstract methods
+abstract method : Which does not have a body part
+
+Encapsulation:set - get[Model[getter-setter]]
+
+Abstraction: Abstract Keyword
+
+//Normal Class Only Support Non Abstract Method
+//Abstract Class Supports Abstract as well as Non Abstract Methods
+//Normal Class as well as Abstrcat class Both can be inherited
+//Normal Class as well as Abstrcat class Both Supports Inheritance
+//We can not create object of abstract class but we can instantiate them
+
+
+Polymorphism:Many Ways to perform anything
+
+1)Method Overloading: When two or more methods having a same name but number of parameters are diffrent
+
+2)Method Overriding:When two or more methods having a same name and number of parameters are 
+also same
+
+
+//When Methods having a same name and same number of parameters at that time you can change data type
+
