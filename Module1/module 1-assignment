@@ -40,10 +40,10 @@ i. Write a program make a summation of given number(E.g. 1523 ans :-11)
 j. Write a program you have to make a summation of first and last Digit.
 (E.g. 1234 ans:-5)
 
-17. Write Program use when statement. Display Monday to Sunday
+17. Write Program use switch statement. Display Monday to Sunday
 
 18. Write a Program of Addition, Subtraction ,Multiplication and Division using
-When (Must Be Menu Driven)
+switch (Must Be Menu Driven)
 
 19. Write a program of to find out the Area of Triangle, Rectangle and Circle
 using If Condition.(Must Be Menu Driven)
