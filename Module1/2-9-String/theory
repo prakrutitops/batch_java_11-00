@@ -1,0 +1,15 @@
+String:
+
+StringBuilder-> immutable -> can not change
+StringBuffer -> mutable -> can change
+
+File read/write
+
+FileOutputStream -> write
+FileInputStream -> read
+
+try
+catch
+throw
+throws
+finally
