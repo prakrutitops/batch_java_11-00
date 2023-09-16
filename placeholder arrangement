@@ -1,0 +1,62 @@
+package com.a169;
+
+import javax.swing.*;
+import javax.swing.text.JTextComponent;
+
+import java.awt.*;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+
+public class PlaceholderTextFieldExample 
+{
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Placeholder TextField Example");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new FlowLayout());
+
+        JTextField textField = new JTextField(20);
+        JPasswordField passwordField = new JPasswordField(20);
+
+        // Set the placeholder text for the JTextField
+        addPlaceholder(textField, "Enter text here...");
+
+        // Set the placeholder text for the JPasswordField
+        addPlaceholder(passwordField, "Enter password here...");
+
+        frame.add(textField);
+        frame.add(passwordField);
+
+        frame.pack();
+        frame.setVisible(true);
+    }
+
+    private static void addPlaceholder(JTextComponent component, String placeholder) {
+        // Create a FocusListener to handle the placeholder behavior
+        FocusListener focusListener = new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                // When the component gains focus, remove the placeholder text
+                if (component.getText().equals(placeholder)) {
+                    component.setText("");
+                    component.setForeground(Color.BLACK);
+                }
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                // When the component loses focus and is empty, set the placeholder text
+                if (component.getText().isEmpty()) {
+                    component.setText(placeholder);
+                    component.setForeground(Color.GRAY);
+                }
+            }
+        };
+
+        // Set the initial placeholder text and color
+        component.setText(placeholder);
+        component.setForeground(Color.GRAY);
+
+        // Add the FocusListener to the component
+        component.addFocusListener(focusListener);
+    }
+}
