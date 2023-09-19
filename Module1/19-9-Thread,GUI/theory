@@ -1,0 +1,15 @@
+Thread:Process Handle
+
+Lifecycle:
+1) init
+2) start
+3) run
+4) stop
+5) destroy
+
+Thread Use
+
+Class -> Thread
+Interface -> Runnable
+
+Thread ->Synchronize
