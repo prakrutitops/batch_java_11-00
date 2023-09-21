@@ -1,0 +1,24 @@
+Wrapper class
+
+int -> data type
+Integer ->wrapper class
+
+value -> type conversion
+
+
+Array
+
+1d
+ 0 0
+ 0 1
+ 0 2
+
+String data ="tops";
+
+
+for(i=0; str[i]!=null; i++)
+{
+	length++;	
+}
+syso()
+
