@@ -1,0 +1,74 @@
+package com.a219;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+import javax.swing.*;
+
+public class DigitralWatchEx implements Runnable
+{
+	
+	JFrame f;  
+	Thread t=null;  
+	int hours=0, minutes=0, seconds=0;  
+	String timeString = "";  
+	JButton b;  
+	
+	public DigitralWatchEx() 
+	{
+		// TODO Auto-generated constructor stub
+	
+		  	f=new JFrame();  
+	      
+		    t = new Thread(this);  
+		    t.start();  
+		    
+		    b=new JButton();  
+	        b.setBounds(100,100,100,50);  
+	      
+		    f.add(b);  
+		    f.setSize(300,400);  
+		    f.setLayout(null);  
+		    f.setVisible(true);  
+	}
+	
+	public static void main(String[] args) 
+	{
+		new DigitralWatchEx();
+	}
+
+	@Override
+	public void run() 
+	{
+	
+		while(true)
+		{
+			Calendar cal = Calendar.getInstance();
+			
+			hours = cal.get(Calendar.HOUR_OF_DAY);
+			if(hours>12) hours-=12;
+			minutes = cal.get(Calendar.MINUTE);
+			seconds = cal.get(Calendar.SECOND);
+			
+			SimpleDateFormat formatter = new SimpleDateFormat("hh:mm:ss");  
+			Date date = cal.getTime();  
+            timeString = formatter.format( date );  
+			
+			printtime();
+			
+			/*
+			 * try { t.sleep(1000); } catch (InterruptedException e) { // TODO
+			 * Auto-generated catch block e.printStackTrace(); }
+			 */
+		}
+		
+		
+	}
+
+	private void printtime() 
+	{
+		// TODO Auto-generated method stub
+		b.setText(timeString);
+	}
+}
