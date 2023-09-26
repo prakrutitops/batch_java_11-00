@@ -1,0 +1,50 @@
+Collection Framework:
+
+Collection -> class+method+interface
+
+Interface:
+1)List:
+ 
+ class:
+	ArrayList
+	LinkedList
+
+2)Set:
+  
+  class:
+         HashSet
+	 LinkedHashSet
+
+
+3)Map
+   
+   class:
+	HashMap
+
+
+4)Vector
+
+5)Stack
+
+
+Iterator -> fetch all details from list
+
+add->single element add
+addAll->add whole list
+remove->remove index wise and object wise
+removeAll->remove whole list
+retainAll-> display common details from 2 list
+
+
+list ->contains all detail as it is
+set -> remove duplicate elements
+
+First in first out -> FIFO
+Last  in first out -> LIFO
+
+
+ArrayList -> 
+LinkedList->Single,Doubly
+
+
+
