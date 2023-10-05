@@ -1,0 +1,47 @@
+WAMP
+W=> Windows
+A=> Apache
+M=> Mysql
+P=> phpmyadmin
+
+LAMP
+L=> Linux
+A=> Apache
+M=> Mysql
+P=> phpmyadmin
+
+MAMP
+M=> Mac
+A=> Apache
+M=> Mysql
+P=> phpmyadmin
+
+
+XAMPP
+X=>cross Platform
+A=> Apache[server]
+M=> Mysql[database]
+P=> Perl
+P=> phpmyadmin
+
+
+SQL => Structured query language
+MYSQL => Database
+
+Types of Commnads in MYSQL
+
+1)DDL:Data Definition Language
+=> Create,alter,drop,truncate,rename
+
+2)DML:Data Manipulation Language
+=>insert,update,delete
+
+3)DQL:Data Query Language
+=>select
+
+4)DCL:Data Control Language
+=>rollback,commit
+
+
+
+1)Create db
