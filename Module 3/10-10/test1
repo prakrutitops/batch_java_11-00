@@ -1,0 +1,43 @@
+Scalar Functions:
+
+1.
+SELECT UCASE(NAME) FROM Students; 
+
+2.
+SELECT LCASE(NAME) FROM Students; 
+
+3.
+SELECT MID(NAME,1,4) FROM Students;
+
+4.
+SELECT LENGTH(NAME) FROM Stuents;
+
+5.
+SELECT ROUND(MARKS,0) FROM table_name;
+
+6.
+SELECT NAME, NOW() AS DateTime FROM Students;
+
+7.
+SELECT NAME, FORMAT(Now(),'YYYY-MM-DD') AS Date FROM
+Students; 
+
+
+Procedure:
+DELIMITER //
+
+	CREATE PROCEDURE deleteproc(INOUT a int)
+
+	BEGIN
+		
+        DELETE FROM details WHERE id =a;
+        
+	END //
+
+DELIMITER ;
+
+
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN
