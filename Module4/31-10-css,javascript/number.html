@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+	<script type="text/javascript">
+	
+		function checknumber(elem,msg)
+		{
+
+				var numericExpression = /^[0-9]+$/;
+				if(elem.value.match(numericExpression))
+				{
+	
+					return true;
+					
+				}
+	
+				else
+				{
+					alert(msg);
+					elem.focus();
+					return false;
+				}
+	
+			
+		}
+
+		function checkalphabet(elem,msg)
+		{
+
+				var alphaexp = /^[a-zA-Z]+$/;
+				if(elem.value.match(alphaexp))
+				{
+	
+					return true;
+					
+				}
+	
+				else
+				{
+					alert(msg);
+					elem.focus();
+					return false;
+				}
+	
+			
+		}
+
+		function checkalphabetnum(elem,msg)
+		{
+
+				var alphaexp = /^[a-zA-Z0-9]+$/;
+				if(elem.value.match(alphaexp))
+				{
+	
+					return true;
+					
+				}
+	
+				else
+				{
+					alert(msg);
+					elem.focus();
+					return false;
+				}
+	
+			
+		}
+	
+	</script>
+
+
+</head>
+<body>
+
+	<form>
+	Enter alphabet Only: <input type='text' id='req1'/>
+	<input type='button' onclick="checkalphabetnum(document.getElementById('req1'),'Please Enter Alphabet and numbers Only')" value='Check Field' />
+	</form>
+
+</body>
+</html>

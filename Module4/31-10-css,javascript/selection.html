@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+	function madeSelection(elem,msg)
+	{
+
+		if(elem.value == "Please Choose"){
+			alert(msg);
+			elem.focus();
+			return false;
+		}else{
+			return true;
+		}
+		
+	}
+
+</script>
+
+
+</head>
+<body>
+
+
+<form>
+
+	<select id='selection'>
+	
+		<option>Please Choose</option>
+		<option>A</option>
+		<option>B</option>
+		<option>C</option>
+		<option>D</option>
+		
+	</select>
+	
+	<input type="button" onclick="madeSelection(document.getElementById('selection'), 'Please Choose Something')" value="check field">
+
+</form>
+
+</body>
+</html>
