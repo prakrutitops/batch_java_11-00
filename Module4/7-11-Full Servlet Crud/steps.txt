@@ -1,0 +1,27 @@
+1.Add External Jar files
+2.Copy that files and paste in lib folder
+3.create index.html file[form]
+4.set the action and method in form
+5.Create a Model class
+6.Create a database and table
+7.Create a dao file
+8.In dao file first create connection method
+9.For query execution take a preparedstatement
+10.create saveservlet
+11.get value from HTML file
+12.Set the detail in Model
+13.pass that model value to dao file
+14.get the detail according to index
+15.and generate result in 0 and 1
+16.create view method in dao
+17.for detail view take a resultset
+18.get all the details through loop
+19.set the detail in model and call model in list
+20.return the list
+21.Create ViewServlet
+22.call viewmethod from dao
+23.Call EveryServlet in web.xml file
+24.Create delete method in dao file
+25.Create deleteservlet call that delete method 
+deleteservlet
+
